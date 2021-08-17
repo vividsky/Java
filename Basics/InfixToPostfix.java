@@ -17,6 +17,7 @@ class InfixToPostfix{
         String exp = br.readLine();
         Stack<Character> op = new Stack<>();
         Stack<String> postfix = new Stack<>();
+        System.out.println("Hello World");
         for(int i=0;i<exp.length();i++){
             char  ch = exp.charAt(i);
             if(Character.isDigit(ch)|| ch>='a' && ch<='z')  {
